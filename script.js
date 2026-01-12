@@ -1,9 +1,9 @@
 const images=[
- "images/img1.jpeg",
- "images/img2.jpeg",
- "images/img3.jpeg",
- "images/img4.jpeg",
- "images/img5.jpeg"
+ "img1.jpeg",
+ "img2.jpeg",
+ "img3.jpeg",
+ "img4.jpeg",
+ "img5.jpeg"
 ];
 
 let i=0;
@@ -60,4 +60,5 @@ function animate(){
     });
     requestAnimationFrame(animate);
 }
+
 animate();
